@@ -1,2 +1,293 @@
-project.html
-Styles.CSS
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Pribadi, Prodi, dan Kampus</title>
+    <link rel="stylesheet" href="Styles.CSS">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Selamat Datang di Profil Pribadi, Prodi, dan Kampus</h1>
+        <nav>
+            <ul>
+                <li><a href="#profil-pribadi">Profil Pribadi</a></li>
+                <li><a href="#profil-prodi">Profil Prodi</a></li>
+                <li><a href="#program-studi">Program Studi</a></li>
+                <!-- Tambahkan tautan untuk halaman-halaman lainnya -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Profil Pribadi -->
+    <section id="profil-pribadi">
+        <h2>Profil Pribadi</h2>
+        <div class="profile" >
+            <img src="foto profile.jpg" class="image-circle"width="200px" alt="">
+            <p>Saya saat ini sedang berkuliah berstatus mahasiswa.
+                Pengalaman saya pernah membantu usaha las keluarga. 
+                tujuan karir saya ingin menjadi seorang pengusaha bisnis ,minat saya yaitu
+                admin di sebuah perusahaan atau buka usaha sendiri, hobi saya 
+                olahraga dirumah sama bola basket.</p>
+            <!-- Informasi tambahan -->
+        </div>
+    </section><hr>
+
+    <!-- Profil Prodi -->
+    <section id="profil-prodi">
+        <h2>Profil Prodi</h2>
+        <div class="department-profile">
+            <img src="prodi.jpg" class="image-circle" width="200px" alt="">
+            <p>Suatu program dimana mahasiswa berbisnis lewat digital,fakultas Bisnis,
+                 dan Digital Media Specialist merupakan sebuah profesi yang bertanggung jawab
+                  untuk merencanakan, menciptakan, dan membuat strategi yang diterapkan di berbagai 
+                  platform media sosial sebuah perusahaan.</p>
+        </div>
+    </section><hr>
+
+    <!-- Program Studi -->
+    <section id="program-studi">
+        <h2>Program Studi</h2>
+        <div class="study-program">
+            <p>Program studi Bisnis Digital mempersiapkan lulusan yang memiliki skill digipreneur unggul 
+                serta mampu mengembangkan dan mengaplikasikan teknologi digital yang mumpuni. 
+                Mahasiswa akan dibekali dengan pembelajaran yang berbasis 
+                teori, praktik, dan fasilitas perkuliahan yang modern agar 
+                mahasiswa dapat mendapatkan pengalaman pembelajaran yang optimal. 
+                Program studi Bisnis Digital memiliki tiga konsentrasi utama yaitu 
+                Digital Marketing, Technopreneur, dan Digital Business Analyst.</p>
+            <!-- Informasi tambahan -->
+        </div>
+    </section><hr>
+    <section id="kampus">
+        <h2>Kampus</h2>
+        <div class="Kampus">
+                <img src="kampus.jpg" class="image-circle" width="200px">
+                <h3>Insititut Teknologi & Bisnis Sabda Setia</h3>
+            <p>Tempat belajar dan aktivitas perkuliahan mahasiswa Sabda Setia</p>
+        </div>
+
+    </section><hr>
+    <section id="kampus">
+        <h2>Kampus</h2>
+        <div class="activities">
+            <div class="activity">
+                <h3>Visi Misi ITBSS</h3>
+                <p>Visi, lembaga Pendidikan Tinggi yang berlandaskan nilai-nilai 
+                    Kristiani dalam mempersiapkan sumber daya manusia yang unggul.
+                    Misi, Mendidik dan melatih sumber daya manusia berkarakter,
+                    terampil, siap berkompetisi secara global dan membawa dampak 
+                    positif bagi lingkungan sekitarnya.
+                </p>
+            </div>
+            </section><hr>
+    
+    <!-- Fasilitas Kampus -->
+<section id="fasilitas-kampus">
+    <h2>Fasilitas Kampus</h2>
+    <div class="fasilitas1">
+            <img src="fasilitas1.jpg" class="image-circle" width="200px">
+            <h3>Lab Komputer</h3>
+        <p>Lab komputer digunakan untuk kegiatan pembelajaran seperti pemograman.</p>
+    </div>
+        <div class="facility">
+            <img src="fasilitas2.jpg" class="image-circle" width="200px">
+            <h3>Perpustakaan</h3>
+            <p>Tempat untuk membaca dan belajar dari buku serta bisa menjadi tempat diskusi belajar</p>
+    </div>  
+</div>
+</section><hr>
+
+
+<!-- Staf Akademik -->
+<section id="staf-akademik">
+    <h2>Staf Akademik</h2>
+    <div class="staff">
+        <div class="staff-member">
+            <img src="dosen.jpg" class="image-circle" width="200px">
+            <h3>William Wendy Ary S.E.,M.Sc.</h3>
+            <p>Seorang Dosen Mengajar Statistika Bisnis pada Semester Genap 
+                Di prodi Bisnis Digital, orang nya ramah dan baik.</p>
+        </div>
+        <!-- Tambahkan staf lainnya -->
+    </div>
+</section><hr>
+
+
+<!-- Kegiatan Mahasiswa -->
+<section id="kegiatan-mahasiswa">
+    <h2>Kegiatan Mahasiswa</h2>
+    <div class="activities">
+        <div class="activity">
+            <h3>Klub basket</h3>
+            <p>Klub olahraga basket dari angkatan 2022-2023 
+                dimana biasa dilaksanakan dilapangan ABC immanuel
+                dijalan sutoyo pada hari minggu mulai start jam 5-jam 7.
+            </p>
+        </div>
+        <div class="activity">
+            <h3>Bizdi Care</h3>
+            <p>Memberikan berupa donasi makanan , minuman dan lain-lain. 
+                diberikan kepada orang-orang yang membutuhkan dijalanan.
+            </p>
+        </div>
+        
+    </div>
+</section><hr>
+
+
+
+<!-- Testimoni Mahasiswa -->
+<section id="testimoni-mahasiswa">
+    <h2>Testimoni Mahasiswa</h2>
+    <div class="testimonials">
+        <div class="testimonial">
+            <p>"Saya sangat menikmati pengalaman belajar di kampus ini.
+                 Staf dan dosen sangat membantu."</p>
+            <cite> Charles</cite>
+        </div>
+        <div class="testimonial">
+            <p>"Program studi yang ditawarkan sangat relevan dengan kebutuhan industri."</p>
+            <cite> Maikel</cite>
+        </div>
+        <!-- Tambahkan testimoni lainnya -->
+    </div>
+</section><hr>
+
+
+<!-- Informasi Kontak -->
+<section id="informasi-kontak">
+    <h2>Informasi Kontak</h2>
+    <address>
+        <p>Alamat: Jalan karya Kota Baru, Pontianak Selatan, Indonesia.</p>
+        <p>Email:Vidipratama.Vidipratama@itbss.ac.id</p>
+        <p>Telepon: 0895-6146-03979</p>
+    </address>
+</section><hr>
+
+<!-- Formulir Kontak -->
+<section id="formulir-kontak">
+    <h2>Hubungi Kami</h2>
+    <form action="submit.php" method="post">
+        <div>
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="pesan">Pesan:</label>
+            <textarea id="pesan" name="pesan" required></textarea>
+        </div>
+        <button type="submit">Kirim Pesan</button>
+    </form>
+</section><hr>
+
+
+    
+
+    <!-- Footer -->
+    <footer>
+        <h3>Hubungi Kami</h3>
+        <p>Alamat: karya Kota Baru,Pontianak, Indonesia</p>
+        <p>Email: vidipratama.vidipratama@itbss.ac.id</p>
+        <p>Telepon: 0896-6146-03979</p>
+        
+
+
+
+    </footer>
+</body>
+</html>
+
+
+
+.img-circle{;
+    border-radius: 50%;
+    
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.department-profile{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kampus {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.staff-member{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.css {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', Times, serif, sans-serif;
+    line-height: 1.6;
+    background-color: #ffaf45;
+    padding: 20px;
+    color: black;
+}
+
+
+header {
+    background-color: #fb6d48;
+    color:white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color:white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+
+section {
+    margin: 20px 0;
+    
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #fb6d48;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
