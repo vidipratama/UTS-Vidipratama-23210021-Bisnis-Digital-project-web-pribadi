@@ -1,0 +1,86 @@
+.img-circle{;
+    border-radius: 50%;
+    
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.department-profile{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kampus {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.staff-member{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.css {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', Times, serif, sans-serif;
+    line-height: 1.6;
+    background-color: #ffaf45;
+    padding: 20px;
+    color: black;
+}
+
+
+header {
+    background-color: #fb6d48;
+    color:white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color:white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+
+section {
+    margin: 20px 0;
+    
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #fb6d48;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
